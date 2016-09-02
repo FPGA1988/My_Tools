@@ -14,3 +14,8 @@ Bundle 'scrooloose/nerdtree'
 ----
 #版本更新
 
+yyyy-mm-dd
+
+2016-09-02 在.vimrc中添加禁止自动备份命令，禁止掉vim74种vimrc***.vim中添加自动备份
+
+----
