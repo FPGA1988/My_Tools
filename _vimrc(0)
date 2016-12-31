@@ -146,8 +146,8 @@ set expandtab                                         "将Tab键转换为空格
 set tabstop=4                                         "设置Tab键的宽度，可以更改，如：宽度为2
 set shiftwidth=4                                      "换行时自动缩进宽度，可更改（宽度同tabstop）
 set smarttab                                          "指定按一次backspace就删除shiftwidth宽度
-"set foldenable                                        "启用折叠
-"set foldmethod=indent                                 "indent 折叠方式
+set foldenable                                        "启用折叠
+set foldmethod=indent                                 "indent 折叠方式
 " set foldmethod=marker                                "marker 折叠方式
 set nobackup                                          "取消自动创建文件名后加~的备份文件   
 set tw=200                                            "设置自动换行的字符数    
