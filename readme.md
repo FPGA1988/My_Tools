@@ -16,7 +16,8 @@ Bundle 'scrooloose/nerdtree'
 
 yyyy-mm-dd
 
-2016-09-02 在.vimrc中添加禁止自动备份命令，禁止掉vim74种vimrc*.vim中添加的自动备份功能
-2016-11-21 在文件类型检测ftdetect中增加h.vim,将所有的.h识别为verilog
-2017-03-01 增加modelsim的.do文件的语法高亮 : 仅增加几个测试关键字，如vlog vsim等
+2016-09-02 在.vimrc中添加禁止自动备份命令，禁止掉vim74种vimrc*.vim中添加的自动备份功能  
+2016-11-21 在文件类型检测ftdetect中增加h.vim,将所有的.h识别为verilog  
+2017-03-01 增加modelsim的.do文件的语法高亮 : 仅增加几个测试关键字，如vlog vsim等  
+
 ----
