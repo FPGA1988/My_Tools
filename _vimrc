@@ -229,5 +229,35 @@ if g:isGUI
 endif
 
 
-
+"建立一个库 
+ nmap <F6> <Esc>:!vlib work<CR> 
+ 
+ "编译一个vhd/v文件  
+ nmap <silent> <F7> :call ModSimComp()<cr><cr> 
+ 
+ "------------------------------------------------------------------------------ 
+"Function    : ModSimComp()  
+"Description : Compile with ModelSim   
+"------------------------------------------------------------------------------ 
+function ModSimComp() 
+    let l:file_type_temp = expand("%:e") 
+    if l:file_type_temp == "vhd" 
+        set makeprg=vcom\ -work\ work\ % 
+        execute ':make' 
+        execute ':cw' 
+   else 
+        if l:file_type_temp == "v"  
+            set makeprg=vlog\ -work\ work\ % 
+            execute ':make' 
+            execute ':cw' 
+      else 
+            echohl ErrorMsg 
+            echo "This filetype can't be compiled by modelsim vcom/vlog!" 
+            echohl None  
+        endif  
+    endif 
+endfunction 
+ 
+"set error format  
+set errorformat=\*\*\ %tRROR:\ %f(%l):\ %m,\*\*\ %tRROR:\ %m,\*\*\ %tARNING:\ %m,\*\*\ %tOTE:\ %m,%tRROR:\ %f(%l):\ %m,%tARNING:\ %f(%l):\ %m,%tRROR:\ %m,%tARNING:\ %m 
 
