@@ -20,7 +20,6 @@
 "Change History(latest change first)
 "yyyy.mm.dd - Author - Your log of change
 "**************************************************************************************************** 
-"2017.03.01 - Àë³¡±¯¾ç - Add more highlight setting : keywork and match.
 "2017.03.01 - Àë³¡±¯¾ç - Add 3 type keyword : modelsimStatement modelsimWave and modelsimConfig.
 "2017.03.01 - Àë³¡±¯¾ç - delete the spare setting.
 "**************************************************************************************************** 
@@ -68,6 +67,11 @@ syn match   modelsimBookmark    "bookmark\sdelete\swave"
 syn match   modelsimBookmark    "bookmark\sgoto\swave"  
 syn match   modelsimBookmark    "bookmark\slist\swave"  
 
+
+assertion action
+assertion count
+bookmark add wave
+
 syn keyword verilogConditional iff
 
 syn keyword verilogRepeat      return break continue
@@ -108,12 +112,12 @@ if version >= 508 || !exists("did_verilog_syn_inits")
    endif
 
    " The default highlighting.
-   HiLink modelsimParameter             Function
+   HiLink modelsimParameter       Function
    HiLink modelsimWave                  TypeDef
    HiLink modelsimConfig                Include
-   HiLink modelsimStatement             Statement
+   HiLink modelsimStatement       Statement
 
-   HiLink modelsimAdd                   Type
+   HiLink modelsimAdd             Type
    HiLink uvmMethod                     Function
    HiLink modelsimAssertion             Error
    HiLink modelsimBookmark              Underlined
@@ -124,4 +128,5 @@ endif
 let b:current_syntax = "modesim_do"
 
 " vim: ts=8
+
 
