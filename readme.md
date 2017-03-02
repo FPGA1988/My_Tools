@@ -1,5 +1,6 @@
 #软件说明
-	Vim是一款能跟得上人的思维的编辑器，本软件为Windows版本的Gvim软件，目前运行环境为Windows7-32bit系统，Windows XP系统也经过了验证，可以正常使用。
+	Vim是一款能跟得上人的思维的编辑器，本软件为Windows版本的Gvim软件，目前运行环境为Windows7-32bit系统，  
+Windows XP系统也经过了验证，可以正常使用。  
 #安装说明
 	使用vim74里面的install.exe进行安装即可
 #特性说明
