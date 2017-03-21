@@ -1,0 +1,50 @@
+m255
+K4
+z2
+13
+cModel Technology
+Z0 dG:/github_project/WinGvim/vim74
+!s112 0.1
+!i10d 8192
+!i10e 25
+!i10f 100
+vdata_gen
+Z1 Ii^G_V@NYX7Ao27UA=O^Wi1
+Z2 V`JN@9S9cnhjKRR_L]QIcM3
+Z3 dG:/github_project/WinGvim/vim74
+Z4 w1488463548
+Z5 8\project_student\DE2_115_FLASH\data_gen.v
+Z6 F\project_student\DE2_115_FLASH\data_gen.v
+L0 6
+Z7 OL;L;10.2c;57
+r1
+31
+Z8 o-work work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+Z9 !s110 1488463550
+Z10 !s100 mTlN1>2f4WP@zAcSknH>>2
+Z11 !s108 1488463550.178000
+Z12 !s107 \project_student\DE2_115_FLASH\data_gen.v|
+Z13 !s90 -work|work|\project_student\DE2_115_FLASH\data_gen.v|
+!i10b 1
+!s85 0
+!i111 0
+vgt5230_if_module
+Z14 !s100 A;QkVzfQElcIo21MDJEzH1
+Z15 I>m[GfaKP7eM9lRUAb<5H42
+R2
+R3
+Z16 w1461077661
+Z17 8\projects\gt5230\fpga\src\gt5230_if_module.v
+Z18 F\projects\gt5230\fpga\src\gt5230_if_module.v
+L0 21
+R7
+r1
+31
+Z19 !s90 -work|work|\projects\gt5230\fpga\src\gt5230_if_module.v|
+R8
+Z20 !s110 1488463881
+!i10b 1
+!s85 0
+Z21 !s108 1488463881.696000
+Z22 !s107 \projects\gt5230\fpga\src\gt5230_if_module.v|
+!i111 0
